@@ -4,41 +4,44 @@
 
 
 
-This is is a test project to print a document line by line on the Terminal. I've used ```The Hacker Manifesto``` because, why not?!
+This is is a test project to print a document line by line on the Terminal. 
 
-_This is more of a note to myself_
-Have this script after into linux as a sort of ```welcome``` :)
+```cat``` reads the contents of the _manifesto_ file and pipes (```|```) the script which instead of splashing all the contents on the ```stdout```, prints the lines one by one giving the illusion that it is being typed in real time. 
+
+I've used [```The Hacker Manifesto```](https://en.wikipedia.org/wiki/Hacker_Manifesto) because, why not?! Feel free to use anything you like.
+
+_This is more of a note to myself_ : have this script after into linux as a sort of ```welcome``` :)
 
 
 ## How To Use
 
-You must have bash installed although it comes pre-installed on many linux distros. For windows users, there are tonnes of how-tos to help you set up bash in your system.
+You must have bash installed although it comes pre-installed on many linux distros. For Windows users, there are tonnes of how-tos to help you set up bash in your system.
 
+
+
+clone this repo anywhere you prefer
 ```
-
-##clone this repo anywhere you prefer
-
 $ git clone https://mashm3ll0w.github.io/manifesto
-
-##get into the directory
-
+```
+get into the directory
+```
 $ cd manifesto
-
-##run the code using the first script (read.sh prints the document line by line)
-
+```
+_read.sh_ prints the document line by line
+```
 $ cat manifesto | ./read.sh
-
-##the second script, reed.sh, prints the document line by line but introduces typos and tries to rectify them
-
+```
+_reed.sh_ prints the document but introduces typos and tries to rectify them
+```
 $ cat manifesto | ./reed.sh
 
 ```
 
 
 ## Authors
-**The Hacker Manifesto** written by **The Mentor** on **Jan 08 1986**
+[**The Hacker Manifesto**](https://en.wikipedia.org/wiki/Hacker_Manifesto) written by [**The Mentor**](https://en.wikipedia.org/wiki/Loyd_Blankenship) on **Jan 08 1986**
 
-**The Bash Scripts** written by **Karl** with the help of **Stack-Overflow** 
+**The Bash Scripts** written by [**Karl**](https://www.github.com/mashm3ll0w) with the help of **Stack-Overflow** 
 
 
 ## License
