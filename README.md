@@ -1,8 +1,15 @@
+<div id='heading' align=center>
+
 # **Print on Terminal**
+##  - the hacker manifesto -
+
+</div>
+
+<div id='badges' align=center>
 
 [![license](https://img.shields.io/github/license/mashm3ll0w/manifesto.svg)](tps://github.com/mashm3ll0w/manifesto/blob/master/LICENSE.md) ![Maintenance](https://img.shields.io/maintenance/yes/2019.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/mashm3ll0w/manifesto.svg) ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/mashm3ll0w/manifesto.svg)
 
-
+</div>
 
 This is is a test project to print a document line by line on the Terminal. 
 
@@ -10,7 +17,7 @@ This is is a test project to print a document line by line on the Terminal.
 
 I've used [```The Hacker Manifesto```](https://en.wikipedia.org/wiki/Hacker_Manifesto) because, why not?! Feel free to use anything you like.
 
-_This is more of a note to myself_ : have this script after into linux as a sort of ```welcome``` :)
+_This is more of a note to myself_ : have this script run right after booting/logging into Linux as a sort of ```welcome``` :)
 
 
 ## How To Use
